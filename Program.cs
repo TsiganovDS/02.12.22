@@ -28,9 +28,10 @@ void generate2DArray(int[,] array)
         Console.WriteLine();
     }
 }
-
+Console.WriteLine("Исходный маассив: ");
 generate2DArray(numbers);
 print2dArray(numbers);
+Console.WriteLine();
 Console.WriteLine("Отсортированный массив: ");
 OrderArrayLines(numbers);
 
