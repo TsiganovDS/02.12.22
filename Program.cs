@@ -28,7 +28,7 @@ void generate2DArray(int[,] array)
         Console.WriteLine();
     }
 }
-Console.WriteLine("Исходный маассив: ");
+Console.WriteLine("Исходный массив: ");
 generate2DArray(numbers);
 print2dArray(numbers);
 Console.WriteLine();
